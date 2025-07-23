@@ -39,7 +39,7 @@ export async function POST(req) {
           Please keep the summary between 100-150 words, focusing on the important aspects of the narrative.`
         },
       ],
-      model: 'llama-3.2-90b-text-preview',
+      model: 'llama3-8b-8192',
       temperature: 1,
       max_tokens: 1024,
       top_p: 1,
